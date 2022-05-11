@@ -1,0 +1,74 @@
+.gatsby-image-wrapper-constrained{
+    display: unset; //remove default static image gatsby css
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+
+    &__page-title-wrapper{
+        margin-bottom: 60px;
+
+        &__title{
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+    }
+
+    &__page-content-wrapper{
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+        width: calc(100% + 290px);
+
+        &__content{
+            display: flex;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        &__content:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .work {
+        &__page-title-wrapper{
+            margin-bottom: 35px;
+        }
+
+        &__page-content-wrapper{
+            max-width: calc(100vw - 60px);
+        }
+    }
+
+    .txt-large{
+        font-size: 1.125rem;
+        line-height: 30px;
+    }
+
+    h1 {
+        font-size: 2.625rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .work {
+        &__page-content-wrapper{
+            &__content{
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .work {
+        &__page-content-wrapper{
+            max-width: calc(100vw - 40px);
+        }
+    }
+}

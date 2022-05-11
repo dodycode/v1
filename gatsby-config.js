@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -6,6 +8,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -34,5 +37,29 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `rubik\:300,400,600,700`
+        ],
+        display: 'swap'
+      }
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@components": path.resolve(__dirname, 'src/components'),
+          "@pages": path.resolve(__dirname, 'src/pages'),
+          "@sass": path.resolve(__dirname, 'src/sass'),
+          "@images": path.resolve(__dirname, 'src/images')
+        },
+        extensions: [
+          "js", "scss", "png", "jpg"
+        ]
+      }
+    },
+    `gatsby-plugin-transition-link`
   ],
 }

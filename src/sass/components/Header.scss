@@ -1,0 +1,145 @@
+.header {
+    display: flex;
+
+    &__logo{
+        display: inline-flex;
+        align-items: center;
+
+        &__picture-wrapper{
+            border-radius: 1000px;
+            overflow: hidden;
+            position: relative;
+            margin-right: 40px;
+
+            & img {
+                width: 100px;
+                display: block;
+                transform: translateX(-52%) scale(2.0)!important;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+            }
+        }
+
+        &__title{
+            color: #191a1d;
+            display: none;
+            font-size: 1.5rem;
+            font-weight: 600;
+            letter-spacing: .0625rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            position: relative;
+        }
+
+        &__title::after{
+            background: #4b6cc1;
+            border-radius: 1000px;
+            content: "";
+            display: block;
+            height: 6px;
+            max-width: 36px;
+            margin-top: 6px;
+            width: 100%;
+        }
+    }
+
+    &__menus{
+        display: flex;
+        flex-direction: column;
+
+        &__title{
+            color: #191a1d;
+            display: inline-block;
+            font-size: 1.75rem;
+            font-weight: 600;
+            letter-spacing: .0625rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            position: relative;
+        }
+
+        &__title::after{
+            background: #4b6cc1;
+            border-radius: 1000px;
+            content: "";
+            display: block;
+            height: 6px;
+            max-width: 36px;
+            margin-top: 6px;
+            width: 100%;
+        }
+
+        &__links{
+            margin-top: 30px;
+            display: flex;
+        }
+
+        .menu-item{
+            transition: color .35s ease;
+            color: #5e5e5e;
+            font-size: 1.125rem;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: .0625rem;
+            text-transform: uppercase;
+            margin-right: 50px;
+
+            &.active{
+                color: #4b6cc1;
+            }
+        }
+
+        .menu-item:hover{
+            color: #4b6cc1;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        &__menus{
+            &__title{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .header {
+        flex-direction: column;
+        &__logo{
+            &__title{
+                display: block;
+            }
+        }
+
+        &__menus{
+            &__title{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        &__logo{
+            &__picture-wrapper{
+                margin-right: 20px;
+            }
+        }
+
+        &__menus{
+            &__links{
+                margin-top: 20px;
+            }
+
+            .menu-item{
+                font-size: .975rem;
+                margin-right: 20px;
+            }
+        }
+    }
+}

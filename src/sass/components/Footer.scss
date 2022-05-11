@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 80px;
+
+    &::before{
+        background: #ddd;
+        border-radius: 1000px;
+        content: "";
+        display: block;
+        height: 5px;
+        width: 100%;
+    }
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+
+        &__text{
+            font-size: 1.0625rem;
+            font-weight: 300;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        &__inner{
+            &__text{
+                font-size: .7rem;
+            }
+        }
+    }
+}
