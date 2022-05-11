@@ -140,3 +140,16 @@
         }
     }
 }
+
+@media screen and (max-width: 360px) {
+    .header {
+        &__logo{
+            &__picture-wrapper{
+                & img {
+                    width: 100%!important;
+                    transform: translateX(-1%) scale(2.0)!important;
+                }
+            }
+        }
+    }
+}

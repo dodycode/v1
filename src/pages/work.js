@@ -6,7 +6,10 @@ import CardContentInfo from "@components/CardContentInfo";
 
 import CardContentMedia from "@components/CardContentMedia";
 
-import { StaticImage } from "gatsby-plugin-image";
+import OmnihRoomsImg from "@images/works/omnihrooms/img02.png";
+import SpkMhsImg from "@images/works/spkmahasiswa/img01.png";
+import OmniHotelImg from "@images/works/omnihotelier/img02.png";
+import BislokaImg from "@images/works/bisloka/img02.png";
 
 import "@sass/pages/Work.scss";
 
@@ -21,7 +24,7 @@ const WorkPage = () => (
                 {/*OmniH Rooms*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
-                        <StaticImage src="../images/works/omnihrooms/img02.png" alt="Preview of Omni Rooms Project"/>
+                        <img src={OmnihRoomsImg} alt="Preview of Omni Rooms Project"/>
                     </CardContentMedia>
 
                     <CardContentInfo 
@@ -34,7 +37,7 @@ const WorkPage = () => (
                 {/*SPK Mahasiswa*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
-                        <StaticImage src="../images/works/spkmahasiswa/img01.png" alt="Preview of SPK Mahasiswa Project"/>
+                        <img src={SpkMhsImg} alt="Preview of SPK Mahasiswa Project"/>
                     </CardContentMedia>
 
                     <CardContentInfo 
@@ -47,7 +50,7 @@ const WorkPage = () => (
                 {/*Omni Hotelier Extranet*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
-                        <StaticImage src="../images/works/omnihotelier/img02.png" alt="Preview of Omni Hotelier Extranet Project"/>
+                        <img src={OmniHotelImg} alt="Preview of Omni Hotelier Extranet Project"/>
                     </CardContentMedia>
 
                     <CardContentInfo 
@@ -60,7 +63,7 @@ const WorkPage = () => (
                 {/* Bisloka */}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
-                        <StaticImage src="../images/works/bisloka/img02.png" alt="Preview of Bisloka Project"/>
+                        <img src={BislokaImg} alt="Preview of Bisloka Project"/>
                     </CardContentMedia>
 
                     <CardContentInfo 

@@ -22,3 +22,13 @@
         padding: 20px;
     }
 }
+
+@media screen and (max-width: 361px) {
+    .social-media-links{
+        width: 100%;
+        flex-direction: column;
+        a:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+}

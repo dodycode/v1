@@ -1,6 +1,7 @@
 import * as React from "react";
 
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
+import UserProfileBg from "@images/dody.jpg";
 
 // import { Link } from "gatsby";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
@@ -11,7 +12,7 @@ const Header = () => (
     <header className="header">
         <div className="header__logo">
             <div className="header__logo__picture-wrapper">
-                <StaticImage src="../../images/dody.jpg" alt="Dody Pras Profile Picture"/>
+                <img src={UserProfileBg} alt="Dody Pras User Profile"/>
             </div>
             <a className="header__logo__title" href="/">Dody Prasetyo</a>
         </div>
