@@ -17,18 +17,39 @@
     }
 }
 
+.txt-large {
+    a {
+        color: #4b6cc1;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .jumbotron {
         padding: 20px;
     }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 420px) {
     .social-media-links{
         width: 100%;
         flex-direction: column;
+
+        a{
+            font-size: 0.9rem;
+        }
+
         a:not(:last-child) {
             margin-bottom: 20px;
+        }
+    }
+
+    .txt-large{
+        a {
+            font-size: 0.9rem;
         }
     }
 }
