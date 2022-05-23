@@ -54,7 +54,7 @@ const Projects = () => {
                     </CardContentMedia>
 
                     <CardContentInfo 
-                        title="Techable Machine" 
+                        title="Techable Machine Mie Instant Classifier" 
                         desc="Simple web app that classifies mie instant using Google Techable Machine"
                         tags={['Web App Development', 'Front End Development', 'Javascript', 'Google Techable Machine']}
                         githubLink="https://github.com/dodycode/techablemachine-mie-instant-classifier"
