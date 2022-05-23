@@ -41,7 +41,7 @@ const Projects = () => {
 
                     <CardContentInfo 
                         title="Premiere League" 
-                        desc="Premiere League Web App based on data generated from footbal-data.org. This website already implement ServiceWorker that can be accessed in offline."
+                        desc="Premiere League Web App based on data generated from footbal-data.org. This webapp already implement ServiceWorker, so this web can be accessed in offline."
                         tags={['Web App Development', 'Front End Development', 'Javascript', 'Progressive Web App (PWA)']}
                         githubLink="https://github.com/dodycode/premiere-league-webapp"
                     />
