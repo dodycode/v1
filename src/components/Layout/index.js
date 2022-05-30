@@ -13,7 +13,7 @@ const Layout = (props) => (
     <>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>Dody Prasetyo | Web Design & Development</title>
+            <title>Dody Prasetyo | Laravel Developer</title>
         </Helmet>
         
         <div className="wrapper">
