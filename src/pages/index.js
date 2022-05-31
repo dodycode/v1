@@ -10,11 +10,11 @@ const IndexPage = () => (
     <div className="jumbotron">
       <h1>👋 Hi, I'm Dody.</h1>
       <p className="txt-large">
-        I'm a Laravel Developer with 4 years of experience working professionally in Web Development. 
-        Specialized in Laravel PHP Framework as a Backend Framework, and experienced using Vue JS or React JS as a Frontend tools.
+        I'm a Full Stack Developer with 4 years of experience working professionally in Web Development. 
+        Specialized in Laravel PHP Framework as a Backend Framework, and experienced using Vue JS and React JS as a Frontend tools.
       </p>
       <p className="txt-large">Curriculum Vitae: <br />
-      <a href="https://drive.google.com/file/d/1yYdziQPFsxHFHNlJFsbvfw9jvl4962CM/view?usp=sharing" target="_blank" rel="noreferrer">Dody Prasetyo CV 2022.pdf</a>
+      <a href="https://drive.google.com/file/d/1-AqkokZ_uQWzjOcU3NEaWXEZGU2GJWqW/view?usp=sharing" target="_blank" rel="noreferrer">Dody Prasetyo CV 2022.pdf</a>
       </p>
       <p className="txt-large" style={{marginBottom: '10px'}}>My other Social Media, let's get connected!:</p>
       <div className="social-media-links">
