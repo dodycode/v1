@@ -23,7 +23,8 @@ const Header = () => (
                 <AniLink className="menu-item" fade to="/" activeClassName="active">Home</AniLink>
                 <AniLink className="menu-item" fade to="/work" activeClassName="active">Work</AniLink>
                 <AniLink className="menu-item" fade to="/projects" activeClassName="active">Projects</AniLink>
-                <AniLink className="menu-item" fade to="/contact" activeClassName="active">Contact</AniLink>
+                {/* <AniLink className="menu-item" fade to="/contact" activeClassName="active">Contact</AniLink> */}
+                <a href="#" className="menu-item" onClick={() => alert('for more info, just contact me at prasetyodody17@gmail.com')}>Contact</a>
             </nav>
         </div>
     </header>
