@@ -10,8 +10,10 @@ const IndexPage = () => (
     <div className="jumbotron">
       <h1>👋 Hi, I'm Dody.</h1>
       <p className="txt-large">
-        I'm a Full Stack Developer with 4 years of experience working professionally in Web Development. 
-        Specialized in Laravel PHP Framework as a Backend Framework, and experienced using Vue JS and React JS as a Frontend tools.
+        I'm a Full Stack Developer with more than 5 years of experience working professionally in Web Development, working with popular libraries and framework such as React JS, Vue JS, Node JS, and Laravel.
+      </p>
+      <p className="txt-large">
+        I love typescript too, currently I use typescript for all of my new projects.
       </p>
       <p className="txt-large">Curriculum Vitae: <br />
       <a href="https://drive.google.com/file/d/1-AqkokZ_uQWzjOcU3NEaWXEZGU2GJWqW/view?usp=sharing" target="_blank" rel="noreferrer">Dody Prasetyo CV 2022.pdf</a>

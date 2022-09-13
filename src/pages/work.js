@@ -10,6 +10,7 @@ import OmnihRoomsImg from "@images/works/omnihrooms/img02.png";
 import SpkMhsImg from "@images/works/spkmahasiswa/img01.png";
 import OmniHotelImg from "@images/works/omnihotelier/img02.png";
 import BislokaImg from "@images/works/bisloka/img02.png";
+import InnovationProjectImg from "@images/works/innovation-app/img01.png";
 
 import "@sass/pages/Work.scss";
 
@@ -21,6 +22,19 @@ const WorkPage = () => (
                 <p className="txt-large">Client projects and other professional work.</p>
             </div>
             <div className="work__page-content-wrapper">
+                {/*Innovation App*/}
+                <div className="work__page-content-wrapper__content">
+                    <CardContentMedia>
+                        <img src={InnovationProjectImg} alt="Preview of Inovation App Project"/>
+                    </CardContentMedia>
+
+                    <CardContentInfo 
+                        title="Innovation App Admin Panel" 
+                        desc="Frontend of Admin Panel for Innovation Project. Build with Next JS and Typescript"
+                        tags={['Web App Development', 'Front End Development', 'Next JS', 'Typescript', 'Chakra UI']}
+                    />
+                </div>
+
                 {/*OmniH Rooms*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
