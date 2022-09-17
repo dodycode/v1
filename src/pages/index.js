@@ -10,7 +10,7 @@ const IndexPage = () => (
     <div className="jumbotron">
       <h1>👋 Hi, I'm Dody.</h1>
       <p className="txt-large">
-        I'm a Full Stack Developer with more than 5 years of experience working professionally in Web Development, working with popular libraries and framework such as React JS, Vue JS, Nest JS, and Laravel.
+        I'm a Full Stack Developer with more than 5 years of experience working professionally in Web Development, working with popular libraries and framework such as React JS, Vue JS, Next JS, Nuxt JS, Nest JS, and Laravel.
       </p>
       <p className="txt-large">
         I love typescript too, currently I use typescript for all of my new projects.
