@@ -70,7 +70,7 @@ const WorkPage = () => (
                     <CardContentInfo 
                         title="Omni Hotelier Extranet" 
                         desc="Backend Dashboard of Omni Hotelier that use to setup everything that property owner needs before they can start selling rooms at omni hotelier booking engine."
-                        tags={['Web App Development', 'Back End Development', 'Vue JS', 'Laravel']}
+                        tags={['Web App Development', 'Back End Development', 'Vue JS', 'Laravel', 'Docker']}
                     />
                 </div>
 

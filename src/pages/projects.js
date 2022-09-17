@@ -29,7 +29,7 @@ const Projects = () => {
                     <CardContentInfo 
                         title="Books API"
                         desc="Books API that build with Nest JS and Prisma JS for ORM tools. This project using Repository Design Pattern for code structure."
-                        tags={['Web App Development', 'Back End Development', 'TypeScript', 'Nest JS', 'Prisma JS', 'Repository Design Pattern', 'MySQL']}
+                        tags={['Web App Development', 'Back End Development', 'TypeScript', 'Nest JS', 'Prisma JS', 'Repository Design Pattern', 'MySQL', 'Docker']}
                         githubLink="https://github.com/dodycode/nestjs-book-api"
                     />
                 </div>
