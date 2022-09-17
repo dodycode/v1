@@ -19,6 +19,20 @@ const Projects = () => {
                 <p className="txt-large">My personal projects that build for practice purposes</p>
             </div>
             <div className="work__page-content-wrapper">
+                {/* books api */}
+                <div className="work__page-content-wrapper__content">
+                    <CardContentMedia>
+                        <img src={reactSpotifyImg} alt="Preview of repo books api"/>
+                    </CardContentMedia>
+
+                    <CardContentInfo 
+                        title="Books API"
+                        desc="Books API that build with Nest JS and Prisma JS for ORM tools. This project build using Repository Design Pattern for code structure."
+                        tags={['Web App Development', 'Back End Development', 'TypeScript', 'Nest JS', 'Prisma JS', 'Repository Design Pattern', 'MySQL']}
+                        githubLink="https://github.com/dodycode/nestjs-book-api"
+                    />
+                </div>
+
                 {/* react js spotify cloning app */}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
