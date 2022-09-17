@@ -15,9 +15,9 @@ const IndexPage = () => (
       <p className="txt-large">
         I love typescript too, currently I use typescript for all of my new projects.
       </p>
-      <p className="txt-large">Curriculum Vitae: <br />
+      {/* <p className="txt-large">Curriculum Vitae: <br />
       <a href="https://drive.google.com/file/d/1-AqkokZ_uQWzjOcU3NEaWXEZGU2GJWqW/view?usp=sharing" target="_blank" rel="noreferrer">Dody Prasetyo CV 2022.pdf</a>
-      </p>
+      </p> */}
       <p className="txt-large" style={{marginBottom: '10px'}}>My other Social Media, let's get connected!:</p>
       <div className="social-media-links">
         <a href="https://www.linkedin.com/in/dodycode" target="_blank" rel="noreferrer">Linkedin</a>
