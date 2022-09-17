@@ -7,6 +7,7 @@ import CardContentMedia from "@components/CardContentMedia";
 import techableMachineImg from "@images/projects/techable-machine.jpg";
 import premiereLeagueImg from "@images/projects/premiere-league.jpg";
 import reactSpotifyImg from "@images/projects/react-spotify.png";
+import booksApiImg from "@images/projects/books-api.png";
 
 import "@sass/pages/Work.scss";
 
@@ -22,7 +23,7 @@ const Projects = () => {
                 {/* books api */}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
-                        <img src={reactSpotifyImg} alt="Preview of repo books api"/>
+                        <img src={booksApiImg} alt="Preview of repo books api"/>
                     </CardContentMedia>
 
                     <CardContentInfo 
