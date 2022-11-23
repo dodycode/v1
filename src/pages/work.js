@@ -11,6 +11,8 @@ import SpkMhsImg from "@images/works/spkmahasiswa/img01.png";
 import OmniHotelImg from "@images/works/omnihotelier/img02.png";
 import BislokaImg from "@images/works/bisloka/img02.png";
 import InnovationProjectImg from "@images/works/innovation-app/img01.png";
+import SourciEDImage from "@images/works/sourcied/landing-page.png";
+import formsmateImage from "@images/works/formsmate/landing-page.png";
 
 import "@sass/pages/Work.scss";
 
@@ -22,6 +24,20 @@ const WorkPage = () => (
                 <p className="txt-large">Client projects and other professional work.</p>
             </div>
             <div className="work__page-content-wrapper">
+                {/*SourciED*/}
+                <div className="work__page-content-wrapper__content">
+                    <CardContentMedia>
+                        <img src={SourciEDImage} alt="Preview of landing page sourciED project"/>
+                    </CardContentMedia>
+
+                    <CardContentInfo 
+                        title="SourciED" 
+                        desc="Custom Course Website for Sourci made with Thinkific and Shopify for template engine"
+                        tags={['Web App Development', 'Front End Development', 'Thinkific', 'Shopify Liquid']}
+                        projectLink="https://www.sourci-ed.com.au/"
+                    />
+                </div>
+
                 {/*Innovation App*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
@@ -32,6 +48,20 @@ const WorkPage = () => (
                         title="Innovation App Admin Panel" 
                         desc="Frontend of Admin Panel for Innovation Project. Build with Next JS and Typescript"
                         tags={['Web App Development', 'Front End Development', 'Next JS', 'Typescript', 'Chakra UI']}
+                        projectLink="https://dagli.au/"
+                    />
+                </div>
+
+                {/*Formsmate App*/}
+                <div className="work__page-content-wrapper__content">
+                    <CardContentMedia>
+                        <img src={formsmateImage} alt="Preview of Inovation App Project"/>
+                    </CardContentMedia>
+
+                    <CardContentInfo 
+                        title="Formsmate" 
+                        desc="Formsmate is a business that offers customized forms, workflow, and management application services for any business scale."
+                        tags={['Web App Development', 'Fullstack Web Development', 'Formeo JS', 'Sails JS', 'React JS', 'MySQL']}
                     />
                 </div>
 

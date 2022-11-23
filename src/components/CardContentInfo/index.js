@@ -21,6 +21,10 @@ const CardContentInfo = (props) => (
         {props.githubLink ? 
             <a href={props.githubLink} target="_blank" rel="noreferrer" className="content-info__btn">View Project on Github</a>
         : <></> }
+
+        {props.projectLink ? 
+            <a href={props.projectLink} target="_blank" rel="noreferrer" className="content-info__btn">View Project</a>
+        : <></> }
     </div>
 );
 
