@@ -38,20 +38,6 @@ const WorkPage = () => (
                     />
                 </div>
 
-                {/*Innovation App*/}
-//                 <div className="work__page-content-wrapper__content">
-//                     <CardContentMedia>
-//                         <img src={InnovationProjectImg} alt="Preview of Inovation App Project"/>
-//                     </CardContentMedia>
-
-//                     <CardContentInfo 
-//                         title="Innovation App Admin Panel" 
-//                         desc="Frontend of Admin Panel for Innovation Project. Build with Next JS and Typescript"
-//                         tags={['Web App Development', 'Front End Development', 'Next JS', 'Typescript', 'Chakra UI']}
-//                         projectLink="https://dagli.au/"
-//                     />
-//                 </div>
-
                 {/*Formsmate App*/}
                 <div className="work__page-content-wrapper__content">
                     <CardContentMedia>
