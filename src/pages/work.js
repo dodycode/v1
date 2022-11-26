@@ -34,7 +34,6 @@ const WorkPage = () => (
                         title="SourciED" 
                         desc="Custom Course Website for Sourci made with Thinkific and Shopify for template engine"
                         tags={['Web App Development', 'Front End Development', 'Thinkific', 'Shopify Liquid']}
-                        projectLink="https://www.sourci-ed.com.au/"
                     />
                 </div>
 
